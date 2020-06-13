@@ -1,0 +1,8 @@
+README.md
+setup.py
+venndata/__init__.py
+venndata/venn.py
+venndata.egg-info/PKG-INFO
+venndata.egg-info/SOURCES.txt
+venndata.egg-info/dependency_links.txt
+venndata.egg-info/top_level.txt
