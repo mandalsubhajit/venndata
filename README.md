@@ -7,7 +7,7 @@ Inspired by **venn.js** package for d3js (https://github.com/benfred/venn.js/)
 
 ## Brief description
 
-In data science, we often require to visualize Venn diagrams for more than 3 sets. This module helps with that. Usage is very straightforward with usually pretty good results. The fineTune option should be set at 'False' if not required by the situation; it helps to get exact positions but is far slower. This module can directly read from a dataframe with membership indicating columns and calculates all overlaps itself.
+In data science, we often require to visualize Venn diagrams for more than 3 sets. This module helps with that. Usage is very straightforward with usually pretty good results. The fineTune option should be set at 'False' if not required by the situation; sometimes it helps to get more accurate positions but is far slower. This module can directly read from a dataframe with membership indicating columns and calculates all overlaps itself.
 
 **Note:** This is an approximate method because a feasible solution does not exist always; especially in case of disjoint sets or subsets, these anomalies become evident. However, still it can serve as a meaningful visualization in most of the cases.
 
