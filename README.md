@@ -40,14 +40,13 @@ Create a dummy dataframe for input -
 ```python
 df = pd.DataFrame(np.random.choice([0,1], size = (50000, 5)), columns=list('ABCDE'))
 ```
-Each column of this datarame should represent a set,
-and the values in each column represents the membership of the observations (rows) in the corresponding
-set. For example, if a particular row looks like:
+Each column of this datarame should represent a set, and each row represents an observation. The values in each column represents the membership of the observations (rows) in the corresponding
+set (columns). For example, if a particular row looks like:
 ```
 A B C D E
 1 0 0 1 0
 ```
-it means the observation corresponding to that row belongs to sets A & D (value=1), but not to B, C or E (value=0)
+it means the observation corresponding to that row belongs to sets A & D (value=1), but not to B, C or E (value=0).
 
 
 Calculate the intersections between the sets. fineTune should be usually set to False, as it gives good results most of the time. If the results do not appear right, use fineTune=True and it is expected to run slowly for several minutes on an average machine.
